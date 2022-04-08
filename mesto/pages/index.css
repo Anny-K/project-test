@@ -1,0 +1,59 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+/*page*/
+@import url(../blocks/page/page.css);
+
+/*content*/
+@import url(../blocks/content/content.css);
+
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+
+/*profile*/
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__block/profile__block.css);
+@import url(../blocks/profile/__add/profile__add.css);
+@import url(../blocks/profile/__edit/profile__edit.css);
+@import url(../blocks/profile/__img/profile__img.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/__title/profile__title.css);
+
+
+/*card*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__like/card__like.css);
+@import url(../blocks/card/__like/_activ/card__like_activ.css);
+@import url(../blocks/card/__name/card__name.css);
+@import url(../blocks/card/__delete/card__delete.css);
+
+
+/*galery*/
+@import url(../blocks/galery/galery.css);
+
+/*form*/
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__autor-info/form__autor-info.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__save/form__save.css);
+
+/*pop-up*/
+@import url(../blocks/pop-up/__form-container/pop-up__form-container.css);
+@import url(../blocks/pop-up/__form-title/pop-up__form-title.css);
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/__container/pop-up__container.css);
+@import url(../blocks/pop-up/__container/_galery/popup__container_galery.css);
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+@import url(../blocks/pop-up/__close/pop-up__close.css);
+@import url(../blocks/pop-up/__close/_galery/pop-up__close_galery.css);
+@import url(../blocks/pop-up/__form-title/_galery-title/pop-up__form-title_galery-title.css);
+
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

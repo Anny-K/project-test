@@ -1,0 +1,27 @@
+.pop-up__close {
+  padding: 0;
+  margin-right: -40px;
+  margin-bottom: 8px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../../../image/form/Close.svg);
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.pop-up__close:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 425px) {
+  .pop-up__close {
+    margin-right: 0;
+    margin-bottom: 16px;
+    background-image: url(../../../image/profile/icons/Close\ Icon320.svg);
+    width: 20px;
+    height: 20px;
+  }
+}
